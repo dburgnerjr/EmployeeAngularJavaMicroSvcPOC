@@ -56,9 +56,24 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>com.github.gwenn</groupId>
+			<artifactId>sqlite-dialect</artifactId>
+			<version>0.2.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.xerial</groupId>
 			<artifactId>sqlite-jdbc</artifactId>
-			<version>3.36.0.3</version> <!-- Use the latest stable version -->
+			<version>3.50.3.0</version> <!-- Use the latest stable version -->
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId>hibernate-community-dialects</artifactId>
+			<version>6.2.7.Final</version> <!-- Use your Hibernate version -->
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.2.4</version>
 		</dependency>
 	</dependencies>
 
